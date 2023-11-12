@@ -38,7 +38,7 @@ public class TestBase {
 			ChromeOptions ops = new ChromeOptions();
 			ops.addArguments("--remote-allow-origins=*");
 			System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\ELCOT\\Documents\\chromedriver_win32\\chromedriver.exe");
+				"C:\\Users\\Dell\\Documents\\chromedriver_win64\\chromedriver.exe");
 			driver = new ChromeDriver(ops);
 		}else if(browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\ELCOT\\Documents\\chromedriver_win32(1)\\geckodriver.exe");
