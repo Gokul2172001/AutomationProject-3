@@ -17,6 +17,7 @@ public class LoginPage extends TestBase {
 	WebElement loginBtn;
 	
 	//Initializing the page objects:
+
 			public LoginPage() {
 				PageFactory.initElements(driver, this);
 			}
@@ -32,3 +33,5 @@ public class LoginPage extends TestBase {
 				return driver.getTitle();
 			}
 }
+
+
